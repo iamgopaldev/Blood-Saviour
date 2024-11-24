@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+body{
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+}
+#header{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 70%;
+    background-color: blueviolet;
+    clip-path: polygon(100% 0, 100% 45%, 0 100%, 0 100%, 0 0);
+}
+#title{
+    height: 70px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+#message{
+    height: 40px;
+    width: 300px;
+    background-color: red;
+    margin-bottom: 20px;
+    position: relative;
+    left:calc(50% - 150px);
+    border-radius:10px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.5);
+    text-align: center;
+    font-size: 8px;
+    color: white;
+}
+#message p{
+    position: relative;
+    top: 10px;
+}
+#form{
+    position: relative;
+    top: 100px;
+    padding: 20px;
+    height: auto;
+    width: 400px;
+    background-color: white;
+    text-align: center;
+    left:calc(50% - 200px);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.5);
+}
+#ibox{
+    height: 30px;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+}
+#ibut{
+    height: 40px;
+    width: 150px;
+    background: black;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
